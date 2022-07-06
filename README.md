@@ -34,6 +34,9 @@
    -> body : to: '클라이언트 토큰', priority: 'high', 'data': '' <- data는 푸시에 관한 메시지와 타이틀 옵션
   7. success후 onmessage()로 들어옴 ->  Notification으로 return.
    -> new Notification은 안드로이드에선 지원되지 않음. 모바일 테스트 오류 --> showNotification으로 대체
+   
+   
+   
   -------------------------vue 적용 완료------------------------------- 
   
 07-06 Backend api 전송
