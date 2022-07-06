@@ -51,7 +51,7 @@
   7. foreground일때 vue에서 onMessage() -> payload로 오는지 확인
   8. background일때 vue에서 setBackgroundMessageHandler() -> payload로 오는지 확인
   9. 모바일 chrome://inspect/#devices으로 test
-  10. wpa 앱 설치후 test (알림 권한 요청 -> 확인)
+  10. pwa 앱 설치후 test (알림 권한 요청 -> 확인)
   11. 공지사항 신규등록시 푸시 test
   
  확인 필요 
