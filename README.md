@@ -36,7 +36,7 @@
    -> new Notification은 안드로이드에선 지원되지 않음. 모바일 테스트 오류 --> showNotification으로 대체
   -------------------------vue 적용 완료------------------------------- 
   
-07-06 Backend api 전송 설정
+07-06 Backend api 전송
 
 - backend (spring boot) 설정
   1. firebase dependency
