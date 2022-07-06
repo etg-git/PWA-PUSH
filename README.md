@@ -34,9 +34,28 @@
    -> body : to: '클라이언트 토큰', priority: 'high', 'data': '' <- data는 푸시에 관한 메시지와 타이틀 옵션
   7. success후 onmessage()로 들어옴 ->  Notification으로 return.
    -> new Notification은 안드로이드에선 지원되지 않음. 모바일 테스트 오류 --> showNotification으로 대체
-   
- - 솔루션 적용 완료
-  1. 환경설정 해야함. 
+  -------------------------vue 적용 완료------------------------------- 
+  
+07-06 Backend api 전송 설정
+
+ - backend (spring boot) 설정
+  1. firebase dependency
+  2. 사용자별 fcm토큰 하나씩 로직 구현(토큰이 같을경우 푸시가 여러개로 옴 -? 중복제거)
+  3. 인증키 json 파일로 저장
+  4. message 클래스 -> Notification builder()
+  5. OkHttp 클래스 사용 -> URL은 v1방식으로, key 전송할때 Bearer "클라이언트토큰"
+  6. execute()
+  7. foreground일때 vue에서 onMessage() -> payload로 오는지 확인
+  8. background일때 vue에서 setBackgroundMessageHandler() -> payload로 오는지 확인
+  9. 모바일 chrome://inspect/#devices으로 test
+  10. wpa 앱 설치후 test (알림 권한 요청 -> 확인)
+  11. 공지사항 신규등록시 푸시 test
+  
+ 확인 필요 
+  - foregounrd일때 알림이 두번뜸. 
+  - background method 안타고있음 -> backend에서 구성할 예정
+  - push올 즉시 알림 띄우기 
+  
        
   
 
