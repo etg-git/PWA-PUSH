@@ -38,7 +38,7 @@
   
 07-06 Backend api 전송 설정
 
- - backend (spring boot) 설정
+- backend (spring boot) 설정
   1. firebase dependency
   2. 사용자별 fcm토큰 하나씩 로직 구현(토큰이 같을경우 푸시가 여러개로 옴 -? 중복제거)
   3. 인증키 json 파일로 저장
