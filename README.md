@@ -57,7 +57,7 @@
  확인 필요 
   - foregounrd일때 알림이 두번뜸. 
   - background method 안타고있음 -> backend에서 구성할 예정
-  - push올 즉시 알림 띄우기 
+  - push올때 즉시 알림 띄우기 
   
        
   
