@@ -55,9 +55,9 @@
   11. 공지사항 신규등록시 푸시 test
   
  확인 필요 
-  - foregounrd일때 알림이 두번뜸. 
-  - background method 안타고있음 -> backend에서 구성할 예정
-  - push올때 즉시 알림 띄우기 
+  - foregounrd일때 알림이 두번뜸. -> 수정
+  - background method 안타고있음 -> backend에서 구성할 예정 -> 수정
+  - push올때 즉시 알림 띄우기 -> 수정
   
        
   
