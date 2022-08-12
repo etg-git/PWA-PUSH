@@ -29,7 +29,7 @@
    -> 정상 작동 확인
   4. message.js 생성 후 firebase/messaging, fireabse/app import
   5. getToken()으로 클라이언트 토큰값 가져옴 -> app.vue로 확인
-  6. postman 열어서 success되는지 확인
+  6. postman 열어서 uri가 success되는지 확인
    -> header : content_type: application.json, Authorization : key="서버키", Accept: application.json
    -> body : to: '클라이언트 토큰', priority: 'high', 'data': '' <- data는 푸시에 관한 메시지와 타이틀 옵션
   7. success후 onmessage()로 들어옴 ->  Notification으로 return.
