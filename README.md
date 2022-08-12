@@ -23,7 +23,7 @@
 - 생성 이후 클라이언트 토큰값 가져오기
   1. firebase -g devtools
   2. firebase login -> 계정 로그인 뒤 success 창 뜨면 완료
-  3. firebase init -> (여기서 애먹음) node version 확인 14버전 쓰고 있는데 파베는 16버전 이상 지원해줌) 
+  3. firebase init ->  mshms는 node version 14버전 쓰고 있는데 파베는 16버전 이상 지원해줌) 
    -> nvm 설치하여 node 따로 관리 (이때 node는 powershell 관리자 권한으로 열어서 버전을 바꿔줘야함. 안그러면 오류) 
    -> npm install은 다시 14버전으로 내림. 이때 package-lock.json파일과 node-modules 삭제하여 다시 install
    -> 정상 작동 확인
